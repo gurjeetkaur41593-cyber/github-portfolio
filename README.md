@@ -8,9 +8,7 @@ To View the live site click [here &rarr;](https://portfolio-template.surge.sh)
 
 ## Want to learn How to create a template like this ?
 
-You can watch [this video series](https://www.youtube.com/watch?v=1nchVfpMGSg&list=PLwJBGAxcH7GzdavgKlCACbESzr-40lw3L) on my youtube channel where I re-create this from scratch. 
-
-
+You can watch [this video series](https://www.youtube.com/watch?v=1nchVfpMGSg&list=PLwJBGAxcH7GzdavgKlCACbESzr-40lw3L) on my youtube channel where I re-create this from scratch.
 
 ## Features
 
@@ -30,7 +28,8 @@ You can watch [this video series](https://www.youtube.com/watch?v=1nchVfpMGSg&li
 
 ## Getting Started 🚀
 
-You'll need [Git](https://git-scm.com) to be installed on your computer. 
+You'll need [Git](https://git-scm.com) to be installed on your computer.
+
 ```
 # Clone this repository
 $ git clone https://github.com/nisarhassan12/portfolio-template
@@ -40,7 +39,7 @@ If you don't have Git installed or you don't like using the terminal then you ca
 
 ## Editing the Template 🔨
 
-Go to `index.html` and fill your information. 
+Go to `index.html` and fill your information.
 
 ### Header
 
@@ -48,15 +47,15 @@ In all of the places where you're supposed to fill your information you'll find 
 
 ```html
 <div class="header__text-box row">
-    <div class="header__text">
-        <h1 class="heading-primary">
-        <!-- Replace the following name with your name -->
-        <span>Syed Ali Hussnain</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-    </div>
+  <div class="header__text">
+    <h1 class="heading-primary">
+      <!-- Replace the following name with your name -->
+      <span>Syed Ali Hussnain</span>
+    </h1>
+    <!-- Put a small paragraph about yourself -->
+    <p>A Web Developer based in Lahore, Pakistan.</p>
+    <a href="#contact" class="btn btn--pink">Get in touch</a>
+  </div>
 </div>
 ```
 
@@ -66,48 +65,40 @@ Each div with class `work__box` represents a project, replace the contents of th
 
 ```html
 <div class="work__box">
-    <div class="work__text">
+  <div class="work__text">
     <h3>Portfolio Template</h3>
-    <p>
-        A free Open Source Portfolio for anyone to use for free.
-    </p>
+    <p>A free Open Source Portfolio for anyone to use for free.</p>
     <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
+      <li>HTML</li>
+      <li>SCSS</li>
+      <li>JavaScript</li>
+      <li>Parcel</li>
     </ul>
 
     <div class="work__links">
-        <a href="#" class="link__text">
-        Visit Site <span>&rarr;</span>
-        </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
-        <img src="./images/github.svg" class="work__code" alt="GitHub">
-        </a>
+      <a href="#" class="link__text"> Visit Site <span>&rarr;</span> </a>
+      <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
+        <img src="./images/github.svg" class="work__code" alt="GitHub" />
+      </a>
     </div>
-    </div>
-    <div class="work__image-box">
-        <img
-            src="./images/project-1.png"
-            class="work__image"
-            alt="Project 1"
-        />
-    </div>
+  </div>
+  <div class="work__image-box">
+    <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+  </div>
 </div>
 ```
 
 For changing the screenshot:
+
 - first place the image in `images/` folder and then in HTML replace the name in `src` with the name of your image.
 
-- Recommended size for project image (1366 x 767px) also make sure the size of all  project images is the same.
+- Recommended size for project image (1366 x 767px) also make sure the size of all project images is the same.
 
 ```html
 <img
-    src="./images/name-of-your-image.png"
-    class="work__image"
-    alt="Project 1"
-/>
+  src="./images/name-of-your-image.png"
+  class="work__image"
+  alt="Project 1" />
 ```
 
 ### Clients Section
@@ -117,11 +108,7 @@ For changing the screenshot:
 - Make sure that you don't have whitespace on either side of the logos.
 
 ```html
-<img
-    src="./images/your-logo.png"
-    class="client__logo"
-    alt="Your Logo"
-/>
+<img src="./images/your-logo.png" class="client__logo" alt="Your Logo" />
 ```
 
 ### About Section
@@ -131,31 +118,27 @@ For changing the screenshot:
 
 ```html
 <section class="about" id="about">
-    <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-            <div class="about__text">
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-                nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-                in vel, ex quam quidem quos mollitia labore aut sunt eius
-                ratione molestiae fuga veniam facere similique voluptate.
-                </p>
-                <!-- Provide a link to your resume -->
-                <a href="#" class="btn">My Resume</a>
-            </div>
+  <div class="row">
+    <h2>About Me</h2>
+    <div class="about__content">
+      <div class="about__text">
+        <!-- Replace the below paragraph with info about yourself -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
+          nostrum illo harum blanditiis, tenetur eum suscipit cupiditate in vel,
+          ex quam quidem quos mollitia labore aut sunt eius ratione molestiae
+          fuga veniam facere similique voluptate.
+        </p>
+        <!-- Provide a link to your resume -->
+        <a href="#" class="btn">My Resume</a>
+      </div>
 
-            <div class="about__photo-container">
-                <!-- Add a nice photo of yourself -->
-                <img
-                class="about__photo"
-                src="./images/syed-ali-hussnain.jpg"
-                alt=""
-                />
-            </div>
-        </div>
+      <div class="about__photo-container">
+        <!-- Add a nice photo of yourself -->
+        <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+      </div>
     </div>
+  </div>
 </section>
 ```
 
@@ -166,21 +149,21 @@ For changing the screenshot:
 
 ```html
 <section class="contact" id="contact">
-      <div class="row">
-        <h2>Get in Touch</h2>
-        <div class="contact__info">
-          <p>
-            Are you looking for a fast-performing and user-friendly website to
-            represent your product or business? or looking for any kind of
-            consultation? or want to ask questions? or have some advice for me
-            or just want to say "Hi 👋" in any case feel free to Let me know. I
-            will do my best to respond back. 😊 The quickest way to reach out to
-            me is via an email.
-          </p>
-          <!-- Replace the email with yours -->
-          <a href="mailto:you@example.com" class="btn">you@example.com</a>
-        </div>
-      </div>
+  <div class="row">
+    <h2>Get in Touch</h2>
+    <div class="contact__info">
+      <p>
+        Are you looking for a fast-performing and user-friendly website to
+        represent your product or business? or looking for any kind of
+        consultation? or want to ask questions? or have some advice for me or
+        just want to say "Hi 👋" in any case feel free to Let me know. I will do
+        my best to respond back. 😊 The quickest way to reach out to me is via
+        an email.
+      </p>
+      <!-- Replace the email with yours -->
+      <a href="mailto:you@example.com" class="btn">you@example.com</a>
+    </div>
+  </div>
 </section>
 ```
 
@@ -222,7 +205,7 @@ For changing the screenshot:
         </p>
         <div class="footer__github-buttons">
           <iframe
-            src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true" 
+            src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
             frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
           </iframe>
         </div>
